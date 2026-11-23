@@ -14,8 +14,6 @@ Para colar de uma vez no Claude Code ou no Cursor, com este checklist já dentro
 - **v2.0 (23/11/2026):** Entrou o fluxo do plugin oficial **Claude Security** e o aviso de que um pedido genérico do tipo "deixe o site seguro e inhackeável" não é auditoria. Fonte: [@matheustilli](https://www.instagram.com/p/DfUrdsQChb3/).
 - **v1.0 (21/11/2026):** Versão inicial, a partir de @geraldo.alv3s, @o.lucasevangelista e @c4msg.
 
-A v1 permanece em `SEGURANCA-VIBECODING-v1.md`.
-
 ---
 
 ## Como usar com a IA (Claude, Cursor, etc.)
