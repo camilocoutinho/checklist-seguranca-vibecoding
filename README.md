@@ -12,9 +12,9 @@ Checklist para revisar a segurança de um app ou site **antes de publicar**. Par
 
 ## O que é
 
-Um roteiro item a item para passar no projeto antes de cada deploy. Sete blocos: chaves, acesso, dados, servidor, custo de IA, revisão final e o plugin oficial Claude Security.
+Um roteiro item a item para passar no projeto antes de cada deploy. Oito blocos: chaves, acesso, dados, servidor, custo de IA, revisão final, o plugin oficial Claude Security e o banner de cookies da LGPD.
 
-Versão 2.0 · 23/11/2026.
+Versão 3.0 · 25/11/2026.
 
 ## Para quem é
 
@@ -43,12 +43,15 @@ Texto completo, com changelog: **[CHECKLIST.md](CHECKLIST.md)**.
 5. [Custos da IA](CHECKLIST.md#custos-da-ia) — limite de gasto e de uso por usuário.
 6. [Revisão final](CHECKLIST.md#revisao-final) — testar como estranho e simular um ataque.
 7. [Plugin oficial Claude Security](CHECKLIST.md#plugin-claude-security) — um scan a mais, no Claude Code.
+8. [Cookies e LGPD](CHECKLIST.md#cookies-e-lgpd) — banner em 2 níveis, nada roda antes do aceite.
 
 ## Créditos
 
-Compilado por Camilo Coutinho a partir de dicas de @geraldo.alv3s, @o.lucasevangelista, @c4msg e @matheustilli, organizadas e complementadas. Versão 2.0 · novembro de 2026.
+Compilado por Camilo Coutinho a partir de dicas de @geraldo.alv3s, @o.lucasevangelista, @c4msg, @matheustilli e @mxcdigital.co, organizadas e complementadas. Versão 3.0 · novembro de 2026.
 
 A parte sobre o plugin oficial Claude Security vem de um post de [@matheustilli](https://www.instagram.com/p/DfUrdsQChb3/) no Instagram. O plugin da Anthropic não substitui este checklist: ele é um scan a mais, no Claude Code.
+
+A parte sobre o banner de cookies e a LGPD vem de um post de [@mxcdigital.co](https://www.instagram.com/p/DfYh1hYG8eT/), com base no *Guia orientativo Cookies e proteção de dados pessoais* da ANPD (2022). É orientação de boas práticas, não lista exaustiva.
 
 ## Aviso
 

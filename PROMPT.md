@@ -71,9 +71,20 @@ O plugin da Anthropic não substitui este checklist: ele é um scan a mais, no C
 - [ ] Escolhi o alcance do scan (completo, o repositório inteiro, ou parcial, só uma parte do projeto) e confirmei o ok. O plugin avisa que o scan gasta bastante token e leva tempo: deixe o Claude Code aberto e espere.
 - [ ] Li o relatório, corrigi o que ele encontrou e não publiquei só porque o scan rodou. Por baixo, o plugin coloca subagentes de segurança treinados nas falhas mais comuns e atualizados pela Anthropic.
 
+8. Cookies e LGPD (banner de consentimento)
+O guia orientativo da ANPD (2022) descreve o banner em dois níveis e o que evitar. É orientação de boas práticas, não lista exaustiva; na dúvida, o jurídico decide. Fonte: @mxcdigital.co (https://www.instagram.com/p/DfYh1hYG8eT/), com base no Guia orientativo Cookies e proteção de dados pessoais (págs. 20 e 31 a 33, lido em 31/10/2026).
+
+- [ ] O banner tem 2 níveis: no 1º, os botões Rejeitar cookies não necessários, Aceitar todos e Selecionar (abre o 2º nível).
+- [ ] O botão de rejeitar os não necessários aparece no 1º nível, fácil de ver, com o mesmo destaque do aceitar. Não destaquei só o aceite, nem escondi o rejeitar.
+- [ ] Não usei um botão único do tipo "Entendi" ou "Aceito".
+- [ ] No 2º nível, os cookies estão separados por categoria: necessários (sempre ativos, para o site funcionar), analíticos (para medir visitas) e publicidade (para anúncio).
+- [ ] O que depende de consentimento (analíticos, publicidade e similares) começa desligado. Não há caixa já marcada, nem "continuar navegando é aceitar".
+- [ ] Nenhum script de analytics, pixel ou cookie de anúncio roda antes do aceite. Confirmei isso em janela anônima, antes de clicar em qualquer botão.
+- [ ] Há um link para a política de cookies (em português, não só em inglês) e para os direitos do titular.
+
 Regra de ouro do Camilo
 A IA escreve o código. A responsabilidade continua sendo sua.
 Rode este checklist a cada versão nova, não só no primeiro lançamento.
 
-Compilado por Camilo Coutinho a partir de dicas de @geraldo.alv3s, @o.lucasevangelista, @c4msg e @matheustilli, organizadas e complementadas. Versão 2.0 · novembro de 2026.
+Compilado por Camilo Coutinho a partir de dicas de @geraldo.alv3s, @o.lucasevangelista, @c4msg, @matheustilli e @mxcdigital.co, organizadas e complementadas. Versão 3.0 · novembro de 2026.
 ````
